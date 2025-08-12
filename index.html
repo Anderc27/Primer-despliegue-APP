@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Despliegue App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Mi primera app</h1>
+            <p>Creada por: <span id="nombre-estudiante">Social Media SENA</span></p>
+        </header>
+
+        <main>
+            <section class="container">
+                <h2>Contador de clicks</h2>
+                <p>Has hecho click <span id="contador">0</span> veces</p>
+                <button id="btn-click">¡Haz Click!</button>
+                <button id="btn-reset">Reset</button>
+            </section>
+
+            <section class="info-despliegue">
+                <h2>Estado del Despliegue</h2>
+                <div class="status-card">
+                    <p><strong>Entorno: </strong> <span id="entorno">Producción</span></p>
+                    <p><strong>Versión: </strong> <span id="version">1.0.0</span></p>
+                    <p><strong>Plataforma: </strong><span id="plataforma">Netlify</span></p>
+                    <p><strong>Última actualización</strong><span id="fecha"></span></p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Curso Despliegue - SENA ADSO 2025</p>
+        </footer>
+    </div>
+        <script src="index.js"></script>
+</body>
+</html>
